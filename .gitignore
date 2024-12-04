@@ -42,10 +42,6 @@ pids
 # Coverage directory
 coverage/
 
-# Dependency lock files
-package-lock.json
-yarn.lock
-
 # Optional npm cache directory
 .npm
 
