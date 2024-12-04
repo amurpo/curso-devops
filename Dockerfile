@@ -11,7 +11,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Instalar dependencias como usuario root
-RUN npm ci --only=production
+RUN npm install
 
 # Copiar el resto del código al contenedor
 COPY . .
