@@ -7,6 +7,9 @@ on:
   pull_request:
     branches:
       - main
+    paths-ignore:
+      - 'LICENSE'         # Excluir cambios en LICENSE
+      - 'README.md'       # Excluir cambios en README.md
 
 jobs:
   build:
